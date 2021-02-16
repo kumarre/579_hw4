@@ -1,0 +1,41 @@
+<!-- Tutorial Resource Used
+http://alexkatz.me/posts/building-a-custom-html5-audio-player-with-javascript/ -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Problem Set 4</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="music.js" defer></script>
+    </head>
+
+    <body> 
+        <main>
+            <h1>Music Player!</h1>
+
+            <div id="album" class="frank"></div>
+            <div id="albumInfo">
+                <h2 id="song">Fly Me to the Moon</h2>
+                <h3 id="artist">Frank Sinatra</h3>
+            </div>
+
+            <figure>
+                <audio id="music" autoplay="false">
+                    <source src="rick.mp3" type="audio/ogg" />
+                    
+                    Your browser does not support the audio element.
+                </audio>
+            </figure>
+
+            <div id="progress">
+                <div id="currentProgress"></div>
+                <div id="playhead"></div>
+            </div>
+
+            <div class = "controls">
+                <button  id = "pButton" class="play"></button>
+            </div>        
+        </main>
+    </body>
+</html>
+    

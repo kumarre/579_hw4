@@ -1,0 +1,85 @@
+body{
+    font-size: 16px;
+    text-align: center;
+    background-color: #00266B;
+    padding: 2%;
+    color: #ffffff;
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+h2{
+    font-size: 1.3em;
+}
+
+p {
+    font-size: .75em;
+}
+
+#pButton{
+    height: 60px;
+    width: 60px;
+    margin-bottom: 5px;
+    flex-basis: 200px;
+    padding: 0;
+    border-radius: 50%;
+    border: none;
+	background-size: 60%;
+	background-position: center;
+}
+#pButton:hover {
+    cursor: pointer;
+}
+.play {
+    background: url("images/sharp_play_arrow_white_18dp.png") no-repeat, #007fd4;
+}
+.pause {
+    background: url("images/sharp_pause_white_18dp.png") no-repeat,  #007fd4;
+}
+
+#progress {
+    width: 300px;
+	height: 10px;
+	background: #ffffff;
+	margin: 10px;
+	border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#playhead{
+	width: 10px;
+	height: 10px;
+	border-radius: 0 10px 10px 0;
+	background: #007fd4;
+    position: absolute;
+}
+
+#currentProgress {
+	height: 10px;
+	border-radius: 10px 0 0 10px;
+	background: #007fd4;
+}
+
+#album {
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+    background-size: 100%;
+    background-position: center;
+}
+
+.frank {
+    background: url("images/frank.jpg") no-repeat, #00266B;
+}
+
+.rick {
+    background: url("images/rick.jpg") no-repeat, #00266B;
+}
